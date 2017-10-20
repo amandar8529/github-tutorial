@@ -12,12 +12,14 @@ collaberate and git is necessary for github.
 ---
 ## Initial Setup
 **Follow the directions below to set up a github account**  
-1. go to [github.com](www.github.com) and click Sign up
-2. Create a username and password as well as put in your email
-3. Check your email and verify github
-4. On another tab go to [c9.io](c9.io) & click on the gear symbol on the right hand corner & click connected service
+1. Open google tab
+2. go to [github.com](www.github.com) and click Sign up
+3. Create a username and password as well as put in your email
+4. Check your email and verify github
+5. On another tab go to [c9.io](c9.io) & click on the gear symbol on the right hand corner & click connected service
 (this will connect github to cloud9 and now whenever you sign into c9 click on the cat symbol)
----
+6. Go to main page on github/ top right hand corner click on profile icon and click settings
+7. On your left there is a side bar, click on SSH and GPG/ click on new SSH key
 ## Repository Setup
 
 
