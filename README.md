@@ -52,7 +52,8 @@ to add
 to commit 
    - ` git commit -m" (commit message)" `
 to push 
-   - `git push
+   - `git push`
+  
 
 
 ---
