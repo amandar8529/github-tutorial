@@ -29,13 +29,30 @@ These steps are a few that you will become experts at because it becomes repetit
 2. Type `cd ~/workspace` this will make sure you are out of any files and back to basically the home page of cloud 9
 3. Type `mkdir first-rep` this will create a directory then type `cd first-repo`
 ***whenever you make a directory make it a habit to go into it right after***
-4. Type `git init` (this initilizes git and gets everything ready to be used)  
-***now to create a README file***
+4. Type `git init` (this initilizes git and gets everything ready to be used) 
+ ***now to create a README file***  
+5. go to _github_, on the top right hand click on the plus and down arrow icon and click _New Repository
+
+7. Type `touch README.md` and then open it (you could either click on it or type `touch README.md` again)  
+ _In order for you to save and add to the staging area a change need to occur_ 
+8. In the README.md file write a commit 
+9. click back on the bash and type in either `git add .` or `git add README.md` either one will add your change to the staging area
+10. then you commit it, now with that you need a smart commit message basically explaining what exactly you have done(make sure it is in present tense).
+  ex: _create first readme_
+  - type `git commit -m"(insert your commit message)" `
+
 
 
 ---
 ## Workflow & Commands
-
+whenever you are coding after you complete one to two coding commands do :
+  - `git status` (this is checking to make sure your changes are commited correctly)
+to add 
+   - `git add .` or ` git add (then the file name) `
+to commit 
+   - ` git commit -m" (commit message)" `
+to push 
+   - `git push
 
 
 ---
