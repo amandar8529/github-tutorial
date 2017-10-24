@@ -4,8 +4,8 @@ _by Amanda Rivera_
 
 ---
 ## Git vs. GitHub
-Git takes snapshots of code you dont github as Github is a place to store code as well as  
-collaberate and git is necessary for github.
+Git takes snapshots of code you dont need github to run git ,as for Github 
+it's a place to store code as well as collaberate and git is necessary for github. 
         
 
 
@@ -38,7 +38,7 @@ These steps are a few that you will become experts at because it becomes repetit
 8. In the README.md file write a commit 
 9. click back on the bash and type in either `git add .` or `git add README.md` either one will add your change to the staging area
 10. then you commit it, now with that you need a smart commit message basically explaining what exactly you have done(make sure it is in present tense).
-  ex: _create first readme_
+  ex: _create first readme_,added color,change format
   - type `git commit -m"(insert your commit message)" `
 
 
@@ -46,15 +46,20 @@ These steps are a few that you will become experts at because it becomes repetit
 ---
 ## Workflow & Commands
 whenever you are coding after you complete one to two coding commands do :
-  - `git status` (this is checking to make sure your changes are commited correctly)
+  - **`git status`** (this is checking to make sure your changes are commited correctly)
 to add 
-   - `git add .` or ` git add (then the file name) `
+   - **`git add .`** or ` git add (then the file name) `(git add takes the file to the stage area)
 to commit 
-   - ` git commit -m" (commit message)" `
+   - ` git commit -m" (commit message)" `(take a "snapshot" of the code.Just like a photographer taking a picture)
 to push 
-   - `git push`
+   - `git push`(sends the "snapshot" to github)
   
 
 
 ---
 ## Rolling Back Changes
+git checkout -- filename:   
+git reset HEAD filename:    
+git reset --soft HEAD~1:    
+git reset HEAD~1:    
+git reset --hard HEAD~1:  
