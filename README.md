@@ -58,8 +58,10 @@ to push
 
 ---
 ## Rolling Back Changes
-git checkout -- filename:   
-git reset HEAD filename:    
-git reset --soft HEAD~1:    
-git reset HEAD~1:    
-git reset --hard HEAD~1:  
+git checkout -- filename:  to edit/will undo/discharge a change  
+git reset HEAD filename:   will undo adding something to the staging area 
+git reset --soft HEAD~1:    undo a commit 
+git reset HEAD~1:           undo a commit 
+git reset --hard HEAD~1:    undo a commit 
+
+
